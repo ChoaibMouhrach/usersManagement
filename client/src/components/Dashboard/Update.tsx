@@ -101,7 +101,7 @@ export default function Update({ closeFunction, userData }: Props) {
     return (
         <form onSubmit={handleSubmit} className="bg-white p-4 rounded-sm shadow-md w-full max-w-md flex flex-col gap-4">
             <div>
-                <h2 className="text-2xl font-semibold tracking-wide">Create New User</h2>
+                <h2 className="text-2xl font-semibold tracking-wide">Update User</h2>
             </div>
 
             {updatingState.isSuccess && <div className=" bg-semitransparentsuccess border-2 border-success p-2 text-white tracking-wide">User created successfully</div>}
